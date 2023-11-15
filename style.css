@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+
+header {
+    background-color: coral;
+}
+
+main {
+    background-color: gray;
+    height: 100vh;
+}
+
+/*------*/
+.home {
+    background-color: rgb(114, 129, 134);
+}
+
+.banner {
+    background-color: lightblue;
+}
+
+.portfolio {
+    background-color: lightpink;
+}
+
+.video {
+    background-color: yellowgreen;
+}
+
+.entries {
+    background-color: plum;
+}
+
+/*------*/
+
+footer {
+    background-color: blue;
+}
+
+/*------*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.h-img {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    background-color: rgb(100, 28, 28);
+}
+
+header nav ul {
+    display: flex;
+}
+
+li {
+    padding: 2.5rem 2rem;
+}
+
+/*------*/
+
+.home {
+    width: 100%;
+    height: 53%;
+    background-color: aquamarine;
+}
+
+.container-home {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1.7rem;
+}
+
+.i1 {
+    padding: 0.5rem 4.3rem;
+    margin-right: 2px;
+    margin-bottom: 1rem;
+}
+
+.form-home select {
+    padding: 0.5rem 4rem;
+    margin-right: 2px;
+    width: 24%;
+}
+
+.form-home button {
+    padding: 0.5rem;
+    width: 25%;
+}
+
+.form-home div {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*--- SUBSCRIBE ---*/
+
+.subscribe {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+
+}
+
+.subscribe button {
+    width: 13rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9em;
+}
+
+
+/*-------------*/
+/*--- BANNER ---*/
+.banner {
+    background-color: coral;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.cards-banner{
+    background-color: lightblue;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card{
+    width: 32%;
+    height: 5%;
+}
+
+
+
+/*-------------*/
+/*---- PORTIFOLIO---*/
+.portfolio{
+    height: 10rem;
+}
+/*-------------*/
