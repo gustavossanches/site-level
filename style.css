@@ -11,6 +11,8 @@ header {
 main {
     background-color: gray;
     height: 100vh;
+
+    margin: 5rem 0rem;
 }
 
 /*------*/
@@ -68,7 +70,7 @@ li {
 
 .home {
     width: 100%;
-    height: 53%;
+    height: 80%;
     background-color: aquamarine;
 }
 
@@ -77,12 +79,16 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem 1.7rem;
+    padding: 1.5rem 1rem;
 }
 
 .i1 {
     padding: 0.5rem 4.3rem;
-    margin-right: 2px;
+    margin-right: 5px;
+    margin-bottom: 1rem;
+}
+
+form{
     margin-bottom: 1rem;
 }
 
@@ -98,7 +104,6 @@ li {
 }
 
 .form-home div {
-    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
 }
@@ -126,20 +131,32 @@ li {
 /*--- BANNER ---*/
 .banner {
     background-color: coral;
-    height: 40%;
+    height: 60%;
+    align-items: center;
     display: flex;
     justify-content: center;
 }
 
+.inside-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
 .cards-banner{
     background-color: lightblue;
-    width: 60%;
+    width: 70%;
+    height: 70%;
     display: flex;
     justify-content: center;
     
 }
 
 .card{
+    display: flex;
+    justify-content: center;
     width: 32%;
     height: 5%;
 }
@@ -149,6 +166,120 @@ li {
 /*-------------*/
 /*---- PORTIFOLIO---*/
 .portfolio{
-    height: 10rem;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-portifolio{
+    background-color: lightgoldenrodyellow;
+    height: 85%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-port{
+    height: 100%;
+    width: 68%;
+    display: flex;
+}
+
+.cp{
+    background-color: orange;
+    width: 48%;
+}
+
+.img-cp{
+    width: 100%;
+}
+
+.cp img{
+    width: 100%;
+}
+
+.cp h3{
+    font-size: 1.4em;
+}
+
+.cp p{
+    font-size: 0.8em;
+    line-height: 1.9em;
+}
+
+.cp div{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cp:nth-child(2){
+    margin-left: 0.5rem;
+}
+
+.cp button{
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+}
+/*-*/
+.places{
+    background-color: red;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.place{
+    background-color: lightblue;
+    height: 18%;
+    margin-left: 1rem;
+}
+
+.recommended{
+    margin: 0;
+}
+
+
+/*-------------*/
+/*----VIDEO----*/
+
+.video{
+    height: 80%;
+}
+/*-------------*/
+/*----ENTRIES-----*/
+.entries{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards-entries{
+    height: 80%;
+    box-shadow: 1px 1px 1px 1px solid;
+   
+}
+
+.cd{
+    background-color: coral;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+
+
+/*-------------*/
+/*----contact----*/
+.contact{
+    height: 40%;
 }
 /*-------------*/
